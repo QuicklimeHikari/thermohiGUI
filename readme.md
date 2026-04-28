@@ -89,4 +89,4 @@ if vyazovkin method is used, the fitting curves are U-shaped:
     "confirm_and_cancel": "Cancel",
     "confirm_and_modify": "Back to Modify Data",
     "result_title": "Results"
-}
+}# thermohiGUI
