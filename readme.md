@@ -3,18 +3,18 @@
 ## About ThermohiGUI 
 <img src="./pictures/logo.png" align="right" width="95">
 
-**ThermohiGUI** is a graphical user interface (GUI) application for calculating activation energy ($E_a$) and exporting the corresponding results (including $E_a$ values and plotting data). Supports 🍎 MacOS (arm64) and 🪟Windows (amd64). You can download it from any of the following links:
+**ThermohiGUI** is a **free** graphical user interface (GUI) application for calculating activation energy ($E_a$) and exporting the corresponding results (including $E_a$ values and plotting data). Supports 🍎 MacOS (arm64) and 🪟Windows (amd64). You can download it from any of the following links:
 
 **site1**: https://drive.google.com/drive/folders/1VGkIb_MzAON_-4iSK3veJabuobJB_w3V?usp=drive_link
 
 **site2**: https://pan.baidu.com/s/15UHJQA5SejSC-qj5V74BTw?pwd=1919
 
 This program implements five widely used non-isothermal kinetic analysis methods: FWO, Starink, KAS, Friedman, and Vyazovkin.
-For reliable analysis, at least three heating programs are required.
+For reliable analysis, at least three heating programs are required (ICTAC recommended).
 
-ThermohiGUI is designed to lower the barrier for activation energy calculation. Even without programming experience, users can quickly and conveniently obtain $E_a$. **For users with Python experience, [thermohipy](https://github.com/QuicklimeHikari/thermohi) is also recomended as it provides more flexibility and functions, such as drawing fitting curves.**
+ThermohiGUI is designed to lower the barrier for activation energy calculation. Even without programming experience, users can quickly and conveniently obtain $E_a$. This is particularly beneficial for methods such as the Vyazovkin method, which become computationally complex when multiple heating programs are involved.
 
-The software is developed by [Hikari Quicklime](https://github.com/QuicklimeHikari) (ORCID: [0000-0002-3318-4921](https://orcid.org/0000-0002-3318-4921)) and is based on the open-source Python package thermohipy (created by Hikari Quicklime, available on PyPI).
+The software is developed by [Hikari Quicklime](https://github.com/QuicklimeHikari) (ORCID: [0000-0002-3318-4921](https://orcid.org/0000-0002-3318-4921)) and is based on the open-source Python package thermohipy (created by Hikari Quicklime, available on PyPI). For users with Python experience, [thermohipy](https://github.com/QuicklimeHikari/thermohi) is also recomended as it provides more flexibility and functions, such as drawing fitting curves.
 
 *While efforts have been made to ensure a robust and user-friendly design (e.g., letter, symbol, zero, and negative number is not allowed in filling heating rate.), users are encouraged to carefully verify the validity and quality of their input data, as these directly affect the reliability of the calculated results.*
 
@@ -26,7 +26,7 @@ I hope this tool can support your research workflow—saving you time for coffee
 ### Interface
 ThermohiGUI supports multiple languages. Users can select their preferred language within the interface.
 
-**If you would like to suggest improvements or contribute a new language, please contact the author or modify the corresponding [JSON file](./en_US.json).**
+**If you would like to suggest improvements or contribute a new language, please read the [JSON file](./en_US.json) and contact the author.**
 ![多语言](./pictures/多语言支持.png)
 
 ⸻
