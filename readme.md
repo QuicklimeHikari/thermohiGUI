@@ -1,6 +1,8 @@
 # ThermohiGUI – README
 
-## About ThermohiGUI
+## About ThermohiGUI 
+<img src="./pictures/logo.png" align="right" width="95">
+
 **ThermohiGUI** is a graphical user interface (GUI) application for calculating activation energy ($E_a$) and exporting the corresponding results (including $E_a$ values and plotting data). Supports 🍎 MacOS (arm64) and 🪟Windows (amd64). You can download it from any of the following links:
 
 **site1**: https://drive.google.com/drive/folders/1VGkIb_MzAON_-4iSK3veJabuobJB_w3V?usp=drive_link
@@ -10,7 +12,7 @@
 This program implements five widely used non-isothermal kinetic analysis methods: FWO, Starink, KAS, Friedman, and Vyazovkin.
 For reliable analysis, at least three heating programs are required.
 
-ThermohiGUI is designed to lower the barrier for activation energy calculation. Even without programming experience, users can quickly and conveniently obtain $E_a$.
+ThermohiGUI is designed to lower the barrier for activation energy calculation. Even without programming experience, users can quickly and conveniently obtain $E_a$. **For users with Python experience, [thermohipy](https://github.com/QuicklimeHikari/thermohi) is also recomended as it provides more flexibility and functions, such as drawing fitting curves.**
 
 The software is developed by [Hikari Quicklime](https://github.com/QuicklimeHikari) (ORCID: [0000-0002-3318-4921](https://orcid.org/0000-0002-3318-4921)) and is based on the open-source Python package thermohipy (created by Hikari Quicklime, available on PyPI).
 
@@ -30,10 +32,10 @@ ThermohiGUI supports multiple languages. Users can select their preferred langua
 ⸻
 
 ### Data Export
-Analysis results can be exported directly, allowing users to perform further visualization using external tools such as OriginPro or other plotting software.
-I plan to add simple drawing functions in the future, as this is also a troublesome repetitive task...if i had more money or time in future.
+Analysis results can be exported directly, allowing users to perform further visualization using external tools such as OriginPro or other plotting software. 
 
 **Result interface**
+
 Click on "Export excel file"button, the results will be saved as `xlsx` file and show you the path.
 ![](./pictures/保存数据.png)
 **Fitting results**
@@ -43,7 +45,23 @@ Click on "Export excel file"button, the results will be saved as `xlsx` file and
 ![](./pictures/绘图数据.png)
 
 **Vyazovkin plotting data**
+
 if vyazovkin method is used, the fitting curves are U-shaped:
 ![vyazovkin.png](./pictures/vyazovkin.png)
 
 ⸻
+### Future plan
+
+**ThermohiGUI is intended to remain freely available for academic and research use.**
+
+The following features are planned for future development:
+
+• Automatic recognition and processing of TGA and other thermo analysis data
+
+• Non-isothermal crystallization kinetics analysis (DSC)
+
+• Activation energy calculation for glass transitions (DMA)
+
+• Drawing Fitting curves(implemented in [thermohipy](https://github.com/QuicklimeHikari/thermohi) but not in [ThermoGUI](https://github.com/QuicklimeHikari/thermohiGUI))
+
+These features aim to further expand the applicability of ThermohiGUI in thermal analysis and kinetic studies.
