@@ -42,12 +42,22 @@ Click on "Export excel file"button, the results will be saved as `xlsx` file and
 ![](./pictures/保存数据KAS.png)
 
 **Scatter data for methods except vyazokvin method**
-![](./pictures/绘图数据.png)
+
+the arrangement of scatter data is modified, it can be copy & paste in graphing software such as OriginPro. Select all and click~
+
+![](./pictures/modified_result.png)
+
+![](./pictures/origin_Plot.png)
+
+
 
 **Vyazovkin plotting data**
 
 if vyazovkin method is used, the fitting curves are U-shaped:
-![vyazovkin.png](./pictures/vyazovkin.png)
+![vyazovkin.png](./pictures/vya_modified.png)
+
+The x-axis corresponding to the lowest point of the curve represents the activation energy, like this:
+![](./pictures/vyazovkin_plot.png)
 
 ⸻
 ### Future plan
@@ -65,3 +75,7 @@ The following features are planned for future development:
 • Drawing Fitting curves(implemented in [thermohipy](https://github.com/QuicklimeHikari/thermohi) but not in [ThermoGUI](https://github.com/QuicklimeHikari/thermohiGUI))
 
 These features aim to further expand the applicability of ThermohiGUI in thermal analysis and kinetic studies.
+
+### Update
+The software will update from v1.0.0 to v1.0.1 as the package [thermohipy](https://github.com/QuicklimeHikari/thermohi) is updated from 0.3.2 to 0.3.3.
+
